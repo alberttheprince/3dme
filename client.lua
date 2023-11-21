@@ -7,7 +7,7 @@ AddEventHandler("3dme:me", function(text, source, icon)
         local isDisplaying = true
         liczba = liczba + 1
         --if icon == nil then icon = 'icons' end
-        icon = 'comment-dots'
+        icon = 'exclamation'
         Citizen.CreateThread(function()
             while isDisplaying do
                 Citizen.Wait(0)
