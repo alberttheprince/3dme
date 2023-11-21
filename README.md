@@ -6,5 +6,3 @@ and the open source code from [Noms](https://forum.cfx.re/t/fork-free-standalone
 To create it myself.
 
 ![IMG1 ME](https://media.discordapp.net/attachments/710238473319219241/892462230057156618/unknown.png)
-![IMG2 DO](https://media.discordapp.net/attachments/710238473319219241/892462333237035038/unknown.png)
-![IMG3 MED](https://media.discordapp.net/attachments/710238473319219241/892462414707191818/unknown.png)
