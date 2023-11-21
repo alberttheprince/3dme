@@ -7,7 +7,7 @@ AddEventHandler("3dme:me", function(text, source, icon)
         local isDisplaying = true
         liczba = liczba + 1
         --if icon == nil then icon = 'icons' end
-        icon = 'child-reaching'
+        icon = 'child'
         CreateThread(function()
             while isDisplaying do
                 Wait(0)
@@ -25,7 +25,7 @@ AddEventHandler("3dme:me", function(text, source, icon)
                         htmlString ..
                         '<span style="position: absolute; left: ' ..
                         xxx * 100 ..
-                        "%;top: " .. yyy * 100 .. '%;"><div class="me-container"><div class="icon-container"><span style="color:#cb73e6;"><i class="fas fa-'..icon..' fa-lg  "></i></span></div><div class="text-container">' .. text .. "</div></div></span>"
+                        "%;top: " .. yyy * 100 .. '%;"><div class="me-container"><div class="icon-container"><span style="color:#dedede;"><i class="fas fa-'..icon..' fa-lg  "></i></span></div><div class="text-container">' .. text .. "</div></div></span>"
                 end
                 if lasthtmlString ~= htmlString then
                             SendNUIMessage({
