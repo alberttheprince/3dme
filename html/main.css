@@ -31,69 +31,6 @@
   bottom: -21px;
 }
 
-.med-container{
-  width: 100%;
-  max-width: 300px; /* Will be AT MOST 320px wide */
-  word-wrap: break-word;
-  text-size-adjust: auto;
-  height: auto;
-  margin: 50px auto;
-  background: #1a1c20;
-  border-bottom: 5px solid #c03737;
-  border-radius: 20px;
-  padding: 5px;
-  text-align: center;
-  font-size: 12px;
-  color: #fff;
-  position:relative;
-  display:flex;
-}
-
-.med-container:before {
-  content: "";
-  width: 0px;
-  height: 0px;
-  position: absolute;
-  border-left: 10px solid #c03737;
-  border-right: 10px solid transparent;
-  border-top: 10px solid #c03737;
-  border-bottom: 10px solid transparent;
-  left: 19px;
-  bottom: -21px;
-}
-
-.do-container{
-  width: 100%;
-  max-width: 300px; /* Will be AT MOST 320px wide */
-  word-wrap: break-word;
-  text-size-adjust: auto;
-  height: auto;
-  margin: 50px auto;
-  background: #1a1c20;
-  border-bottom: 5px solid #4d66f1;
-  border-radius: 20px;
-  padding: 5px;
-  text-align: center;
-  font-size: 12px;
-  color: #fff;
-  position:relative;
-  display:flex;
-}
-
-.do-container:before {
-  content: "";
-  width: 0px;
-  height: 0px;
-  position: absolute;
-  border-left: 10px solid #4d66f1;
-  border-right: 10px solid transparent;
-  border-top: 10px solid #4d66f1;
-  border-bottom: 10px solid transparent;
-  left: 19px;
-  bottom: -21px;
-}
-
-
 .icon-container {
   min-height: 20px;
   max-height: 20px;
