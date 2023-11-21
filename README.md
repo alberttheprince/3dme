@@ -1,4 +1,4 @@
-# 3dme-w--html
+# 3dme
 
 Simplified version of https://github.com/Nicetyone/3dme-w--html
 
