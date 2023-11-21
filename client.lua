@@ -8,9 +8,9 @@ AddEventHandler("3dme:me", function(text, source, icon)
         liczba = liczba + 1
         --if icon == nil then icon = 'icons' end
         icon = 'child-reaching'
-        Citizen.CreateThread(function()
+        CreateThread(function()
             while isDisplaying do
-                Citizen.Wait(0)
+                Wait(0)
                 local htmlString = ""
                 local sourceCoords = GetEntityCoords(GetPlayerPed(playerId))
                 local nearCoords = GetEntityCoords(PlayerPedId())
@@ -39,8 +39,8 @@ AddEventHandler("3dme:me", function(text, source, icon)
                 SendNUIMessage({toggle = false})
             end
         end)
-        Citizen.CreateThread(function()
-            Citizen.Wait(Config.Duration)
+        CreateThread(function()
+            Wait(Config.Duration)
             liczba = liczba -1
             isDisplaying = false
             SendNUIMessage({toggle = false})
